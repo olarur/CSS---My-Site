@@ -39,8 +39,12 @@ hr {
 a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
+    margin: 10px 2px;
     text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 .top-container {
@@ -58,7 +62,7 @@ a {
     position: relative;
     left: 10px;
     padding-bottom: 30px;
-    ;
+    background-color: #E4F9F5;
 }
 
 .bottom-container {
@@ -97,6 +101,18 @@ a {
     margin-left: 30px;
 }
 
+.photography-images {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.playstation-images {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
 .profile-image {
     padding-top: 50px;
 }
@@ -109,6 +125,12 @@ a {
 .contact-me {
     width: 25%;
     margin: 40px auto 60px auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
 }
 
 .btn {
